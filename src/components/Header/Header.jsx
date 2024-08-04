@@ -5,7 +5,7 @@ import { RiSearch2Line } from "react-icons/ri";
 
 export function Header() {
     return (
-        <header className="bg-main px-5 p-3 flex justify-between items-center fixed top-0 left-0 right-0">
+        <header className="bg-main px-3 sm:px-5 p-3 flex justify-between items-center fixed top-0 left-0 right-0 z-50">
             <div className="flex justify-between items-center">
                 <span className="w-10">
                     <img src={logo} alt="logo" />
@@ -28,7 +28,7 @@ export function Header() {
                         )
                     })
                 }
-                <img src={user1} alt="avatar" width={32} height={32} className="ml-3 rounded-full bg-[#ffff] object-cover cursor-pointer" />
+                <img src={user1} alt="avatar" width={32} height={32} title="Profile" className="ml-3 rounded-full bg-[#ffff] object-cover cursor-pointer" />
             </div>
         </header>
     )
