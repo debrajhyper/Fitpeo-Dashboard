@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     colors: {
-      main: '#202028'
+      main: '#202028',
+      dividerClr: '#33363d'
     },
     extend: {},
   },

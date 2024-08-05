@@ -1,0 +1,14 @@
+@media (min-width: 1200px) {
+    #feedback ::-webkit-scrollbar {
+        width: 8px;
+        background-color: transparent;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    #feedback ::-webkit-scrollbar-thumb {
+        background-color: rgb(173, 173, 174);
+        border-radius: 10px;
+    }
+}
