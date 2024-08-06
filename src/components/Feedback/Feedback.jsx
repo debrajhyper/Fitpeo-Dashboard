@@ -4,7 +4,7 @@ import { ReviewStars } from "./ReviewStars";
 
 export function Feedback() {
     return (
-        <div id="feedback" className="w-full h-min col-span-full md:col-span-2 xl:col-span-3 order-9 xl:mt-5 xl:ml-5 bg-main rounded-md p-5 pr-1 pb-0">
+        <div id="feedback" className="w-full h-min col-span-full md:col-span-2 xl:col-span-3 order-9 xl:ml-5 bg-main rounded-md p-5 pr-1 pb-0">
             <h2 className="text-2xl font-bold">Customer&apos;s Feedback</h2>
             <div className="pt-3.5 divide-y-2 divide-dividerClr max-h-[29.3rem] overflow-auto pr-3">
                 {

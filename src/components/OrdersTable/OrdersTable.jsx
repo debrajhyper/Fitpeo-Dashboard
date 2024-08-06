@@ -10,7 +10,7 @@ export function OrdersTable() {
     }));
 
     return (
-        <div className="w-full h-min col-span-full md:col-span-2 xl:col-span-4 order-9 xl:mt-5 bg-main rounded-md p-5">
+        <div className="w-full h-min col-span-full md:col-span-2 xl:col-span-4 order-9 bg-main rounded-md p-5">
             <h2 className="text-2xl font-bold">Recent Orders</h2>
             <TableContainer>
                 <Table columns={columns} data={modifiedData} />

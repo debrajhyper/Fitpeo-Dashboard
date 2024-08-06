@@ -25,9 +25,9 @@ export function ProfitCard() {
                         </span>
                     </CircularProgressbarWithChildren >
                 </div>
-                <p className="text-[0.3rem] sm:text-xs">*The values here has been rounded off.</p>
+                <p className="text-[0.5rem] mt-1 sm:text-xs">*The values here has been rounded off.</p>
             </div>
-            <h1 className="text-3xl sm:text-5xl font-extrabold">$ 6759.25</h1>
+            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-extrabold whitespace-nowrap">$ 6759.25</h1>
             <span className="h-min self-end inline-flex justify-start items-center text-[#6dec54] font-semibold"><TiArrowSortedUp /> 3%</span>
         </div>
     )
